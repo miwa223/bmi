@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>app3</title>
+  <link href="/static/app3.css" rel="stylesheet">
+</head>
+<body>
+  <br><br><br><h1>BMI値を測りましょう</h1>
+  <form methods='post' action='{{ url_for('output') }}'>
+  <p>身長(cm)を入力してください: <input type=text name='height' size='10'></p>
+  <p>体重(kg)を入力してください: <input type=text name='weight' size='10'></p>
+  <button type='submit'>結果を見る</button>
+  </form>
+</body>
+</html>
