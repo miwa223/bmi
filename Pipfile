@@ -9,7 +9,4 @@ verify_ssl = true
 flask = "*"
 
 [requires]
-python_version = "3.6"
-
-[scripts]
-start = "python3 index.py"
+python_version = "3.7"
